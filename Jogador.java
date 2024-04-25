@@ -16,9 +16,11 @@ class Jogador {
     }
 
     public void incrementaUmVoto() {
-        this.votos++;
+        this.votos = getVotos() + 1;
     }
 }
+
+
 
 
 
